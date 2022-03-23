@@ -6,7 +6,8 @@ import (
 	"flag"
 	"fmt"
 
-	"collecotr-version/core"
+
+	"github.com/sugary199/collector-version/core"
 )
 
 func main() {
