@@ -7,7 +7,7 @@ import (
 	"fmt"
 
 
-	"github.com/sugary199/collector-version/core"
+	"github.com/sugary199/collector-version/version"
 )
 
 func main() {
@@ -15,7 +15,7 @@ func main() {
 	flag.Parse()
 
 	if *ver {
-		fmt.Printf("%s\n", core.Version())
+		fmt.Printf("%s\n", version.Version())
 		return
 	}
 }
